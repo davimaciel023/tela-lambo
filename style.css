@@ -106,6 +106,10 @@ body {
     width: 100%;
 }
 
+.animacao-hover{
+    z-index: 3;
+}
+
 /* INTRODUÇÃO */
 
 
@@ -153,7 +157,7 @@ body {
     background: rgb(4, 4, 4);
     color: white;
     text-align: center;
-    top: -65px;
+    top: -85px;
 
 }
 
@@ -187,3 +191,4 @@ body {
     stroke: white;
     stroke-width: 2px;
 }
+
