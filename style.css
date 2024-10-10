@@ -15,8 +15,6 @@ body {
 .menu-lambo {
     width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
     background: rgb(29, 29, 29);
     color: white;
     z-index: 1;
@@ -127,3 +125,17 @@ body {
     font-size: 5.7rem;
 }
 
+.msg-section{
+    position: relative;
+    background: rgb(4, 4, 4);
+    color: white;
+    text-align: center;
+    top: -65px;
+
+}
+
+.container-section {
+    position: fixed;
+    background: rgb(4, 4, 4);
+    padding: 5px 10px;
+}
