@@ -138,8 +138,14 @@ body {
 }
 
 
-.texto-intro span {
-    font-size: 5.7rem;
+.texto-intro h2 {
+    position: relative;
+    top: 20px;
+    left: 0;
+    letter-spacing: -4px;
+    line-height: 90px;
+    font-size: 6.4rem;
+    margin-right: 35%;
 }
 
 .msg-section{
@@ -160,12 +166,12 @@ body {
 
 .button-intro {
     position: relative;
-    top: 220px;
+    top: 250px;
     left: 124px;
 }
 
 .button-intro svg {
-    max-width: 65px;
+    max-width: 58px;
     cursor: pointer;
 }
 
