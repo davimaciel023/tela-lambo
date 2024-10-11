@@ -14,106 +14,9 @@ body {
 }
 
 
-.menu-lambo {
-    width: 100%;
-    position: fixed;
-    background: rgb(29, 29, 29);
-    color: white;
-    z-index: 1;
-}
-
-
-.container-menu{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.menu-geral {
-    display: flex;
-    align-items: center;
-    padding: 9px;
-    text-align: center;
-    position: relative;
-}
-
-
-.info-left ul {
-    display: flex;
-    padding-left: 10px;
-}
-
-
-.info-left li {
-    list-style-type: none;
-    padding: 13px;
-    font-size: 1.0rem;
-}
-.logo img {
-    max-width: 110px;
-    margin-left: 40px;
-}
-.info-left a {
-    color: white;
-    text-decoration: none;
-}
-
-
-.info-right a {
-    color: white;
-    text-decoration: none;
-}
-
-
-.info-right ul {
-    display: flex;
-    padding-right: 10px;
-}
-
-
-.info-right li {
-    list-style-type: none;
-    padding: 13px;
-    font-size: 1.0rem;
-}
-
-
-.icons {
-    padding: 0 20px;
-    margin: 10px;
-}
-
-
-.bi {
-    padding: 0 15px;
-    cursor: pointer;
-}
-
-.animacao {
-    position: relative;
-}
-
-.animacao a::after{
-    content: " ";
-    width: 0%;
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: .3s ease-in-out;
-}
-
-.animacao a:hover::after{
-    width: 100%;
-}
-
-.infos-dentro-models {
-    z-index: 3;
-}
 
 /* INTRODUÇÃO */
-
+/* 
 
 .intro-lambo {
     width: 100%;
@@ -191,8 +94,12 @@ body {
     fill: none;
     stroke: white;
     stroke-width: 2px;
+    animation-name: icon-animate;
+    animation-duration: .1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
-.button-intro path:hover {
+.icon-animation:hover, .icon:hover {
     fill: white;
-}
+} */
